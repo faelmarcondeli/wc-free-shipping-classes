@@ -25,8 +25,12 @@ configurações de fretes grátis com condições diferentes (como valor mínimo
 O método de envio frete grátis que agora podem ter valores mínimos diferentes são exibidos ao cliente
 no carrinho do woocommerce por prioridade, por padrão isso é feito para a classe volumetric-weight
 e quando na cotação de fretes há um produto pertencente a classe volumetric-weight que é a padrão,
-então somente ela é exibida (no momento não há inteção de permitir um valor para as prioridades, caso
+então somente ela é exibida. (no momento não há inteção de permitir um valor para as prioridades, caso
 essa exista a padrão ela é a prioritária)
+
+A disponibilização da opção frete grátis está sujeita a análise da prioridade, uma vez que é disponibilizada
+apenas uma opção de frete grátis, quando há um produto da classe prioritária somente ele é exibido, 
+respeitando as condições citadas acima.
 
 Quando um produto da classe volumetric-weight está presente na compra, então o valor máximo para obter
 qualquer método frete grátis é limitado ao valor monetário padrão de 600, se na compra o total
@@ -42,6 +46,8 @@ No Tema Flatsome exibe valores mínimos atualizados conforme o configurado na cl
 /wp-content/themes/flatsome/inc/woocommerce/class-shipping.php > public function free_shipping() 
 
 ## METAS
-Trocar o texto da mensagem "Espumas e Enchimentos" para que seja exibido o nome da classe de entrega
+1 - Trocar o texto da mensagem "Espumas e Enchimentos" para que seja exibido o nome da classe de entrega
+2 - A opção de frete grátis para não está funcionando corretamente quando há um produto da classe de entrega
+prioritária na compra
 
 
