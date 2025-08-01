@@ -25,7 +25,7 @@ configurações de fretes grátis com condições diferentes (como valor mínimo
 O método de envio frete grátis que agora podem ter valores mínimos diferentes são exibidos ao cliente
 no carrinho do woocommerce por prioridade, por padrão isso é feito para a classe volumetric-weight
 e quando na cotação de fretes há um produto pertencente a classe volumetric-weight que é a padrão,
-então somente ela é exibida (no momento não a inteção de permitir um valor para as prioridades, caso
+então somente ela é exibida (no momento não há inteção de permitir um valor para as prioridades, caso
 essa exista a padrão ela é a prioritária)
 
 Quando um produto da classe volumetric-weight está presente na compra, então o valor máximo para obter
