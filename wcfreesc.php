@@ -5,7 +5,7 @@
  * Plugin Name: Woocommerce Free Shipping Class
  * Version:     2.4.4
  * Plugin URI:  https://singularity.art.br/
- * Description: Google Tag Manager implementation focusing on flexibility and pagespeed.
+ * Description: Permite atribuir classes aos métodos de envio frete grátis e determina sua prioridade exibição, por regras.
  * Author:      Rafael Moreno
  * Author URI:  https://singularity.art.br/
  * Text Domain: wcfreesc
